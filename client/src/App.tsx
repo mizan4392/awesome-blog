@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CreatePost from "./components/create_post/createPost.component";
 import TopBar from "./components/topBar/topBar";
+import Profile from "./pages/profile/profile.page";
 import Single from "./pages/single/single.page";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <TopBar />
       {/* <Home /> */}
       {/* <Single /> */}
-      <CreatePost />
+      {/* <CreatePost /> */}
+      <Profile />
     </div>
   );
 }
