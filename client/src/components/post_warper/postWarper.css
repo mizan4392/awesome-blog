@@ -1,0 +1,7 @@
+.post-warper {
+  flex: 9;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
