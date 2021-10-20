@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Header from "../../components/header/header.component";
-import Post from "../../components/post/post.component";
+
+import PostWarper from "../../components/post_warper/postWarper.component";
 import Sidebar from "../../components/sidebar/sidebar.component";
 
 import "./home.css";
@@ -11,7 +12,7 @@ export default function Home({}: Props): ReactElement {
     <React.Fragment>
       <Header />
       <div className="home">
-        <Post />
+        <PostWarper />
         <Sidebar />
       </div>
     </React.Fragment>
