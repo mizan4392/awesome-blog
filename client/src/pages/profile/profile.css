@@ -1,0 +1,71 @@
+.me {
+  margin-top: 6%;
+  display: flex;
+  background-color: #fff;
+}
+.profile-wrapper {
+  flex: 9;
+  padding: 20px;
+}
+.me-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.update-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.delete-title {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+.me-form {
+  display: flex;
+  flex-direction: column;
+}
+.me-img {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.me-img > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.file-input-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.me-form > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.me-form > input {
+  color: gray;
+  margin: 10px 0px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.me-submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+}
