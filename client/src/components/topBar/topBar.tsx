@@ -1,5 +1,4 @@
 import React, { ReactElement, useState } from "react";
-import { menuItems } from "../../utils/navItem";
 import "./topBar.css";
 interface Props {}
 
