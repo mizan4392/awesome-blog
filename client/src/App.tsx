@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import CreatePost from "./components/create_post/createPost.component";
 import TopBar from "./components/topBar/topBar";
+import Login from "./pages/authentication/login/login.page";
+import Signup from "./pages/authentication/signup/signup.page";
 import Profile from "./pages/profile/profile.page";
 import Single from "./pages/single/single.page";
 
@@ -12,7 +14,9 @@ function App() {
       {/* <Home /> */}
       {/* <Single /> */}
       {/* <CreatePost /> */}
-      <Profile />
+      {/* <Profile /> */}
+      {/* <Login /> */}
+      <Signup />
     </div>
   );
 }
