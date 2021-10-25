@@ -1,4 +1,5 @@
 import React, { ReactElement, useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./topBar.css";
 interface Props {}
 
@@ -20,16 +21,16 @@ export default function TopBar({}: Props): ReactElement {
 
           <ul id="menu">
             <li>
-              <a href="#home">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#services">About</a>
+              <NavLink to="/profile">About</NavLink>
             </li>
             <li>
-              <a href="#about">Contact</a>
+              <NavLink to="/">Contact</NavLink>
             </li>
             <li>
-              <a href="#contact">Write</a>
+              <NavLink to="/write">Write</NavLink>
             </li>
             <li>
               <a href="#contact">LogOut</a>
