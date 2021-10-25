@@ -1,8 +1,10 @@
 import React, { ReactElement } from "react";
+import { useHistory } from "react-router";
 import "./login.css";
 interface Props {}
 
 export default function Login({}: Props): ReactElement {
+  const history = useHistory();
   return (
     <div className="form_wrapper">
       <div className="title_container">
@@ -31,7 +33,14 @@ export default function Login({}: Props): ReactElement {
                 />
               </div>
               <input className="button" type="submit" value="Login" />
-              <input className="ext-btn" type="button" value="Register" />
+              <input
+                className="ext-btn"
+                type="button"
+                value="Register"
+                onClick={() => {
+                  history.push("/register");
+                }}
+              />
             </form>
           </div>
         </div>
